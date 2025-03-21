@@ -1,8 +1,9 @@
 @import "tailwindcss";
 
+/* Definindo a cor de fundo e texto para o modo claro e escuro */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #020617;
+  --foreground: #F8FAFC;
 }
 
 @theme inline {
@@ -14,11 +15,12 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #F8FAFC;
+    --foreground: #F8FAFC;
   }
 }
 
+/* Aplicando as variáveis no corpo */
 body {
   background: var(--background);
   color: var(--foreground);
