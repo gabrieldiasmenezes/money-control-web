@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💰 **Money Control Web** - O Controle Financeiro na Ponta dos Seus Dedos
 
-## Getting Started
+## 📚 **Descrição**
 
-First, run the development server:
+Bem-vindo ao **Money Control Web**! 🚀 Uma plataforma de controle financeiro projetada para te ajudar a **gerenciar suas finanças pessoais e empresariais** com facilidade e segurança. A interface intuitiva e moderna foi construída com **Next.js**, **shadcn/ui** e **Lucide** para proporcionar uma experiência de usuário incrível!
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Com o **Money Control Web**, você pode:
+- 📊 Organizar e **acompanhar suas finanças**
+- 🔒 Gerenciar dados financeiros com **segurança**
+- 💡 Visualizar seu **fluxo de caixa** em tempo real
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔧 **Tecnologias Utilizadas**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+As seguintes tecnologias estão por trás deste incrível sistema:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js** 🖥️ - Framework React para construção de **aplicações web rápidas e escaláveis**.
+- **shadcn/ui** 🎨 - Conjunto de componentes UI para criar interfaces **modernas e intuitivas**.
+- **Lucide** 🔲 - Biblioteca de **ícones** claros e sofisticados, para complementar a interface.
+- **Axios** 🌐 - Para realizar **requisições HTTP** à nossa API.
+- **Styled-components** 💅 - Para criar estilos dinâmicos e reutilizáveis.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 **Como Rodar o Front-end**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🔑 **Pré-requisitos**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Antes de começar, você precisará ter as seguintes ferramentas instaladas:
 
-## Deploy on Vercel
+- **Node.js** (versão 14 ou superior)
+- **npm** ou **yarn** (para gerenciamento de pacotes)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🛠️ **Passos para Iniciar o Front-end**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone o repositório**:
+   Se você ainda não clonou o repositório, rode o comando no seu terminal:
+   ```bash
+   git clone <URL-do-repositório-money-control-web>
+   cd money-control-web
