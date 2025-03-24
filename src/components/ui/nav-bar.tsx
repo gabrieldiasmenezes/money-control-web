@@ -16,7 +16,7 @@ export default function NavBar(props:NavBarProps){
             <h1 className="text-2xl font-bold">MoneyControl</h1>
             <ul className="flex gap-12">
                 {links.map(link=>
-                    <li className={active===link.label?classActive:""}><Link href={link.href}>{link.label}</Link></li>
+                    <li key={link.label} className={active===link.label?classActive:""}><Link href={link.href}>{link.label}</Link></li>
                 )}             
             </ul>
             <img className="size-12 rounded-full" src="http://github.com/gabrieldiasmenezes.png" alt="" />
