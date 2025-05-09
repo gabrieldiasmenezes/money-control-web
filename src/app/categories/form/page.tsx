@@ -1,8 +1,8 @@
 "use client"
-import { createCategories } from "@/actions/category-actions";
+import { createCategory } from "@/actions/category-actions";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import NavBar from "@/components/ui/nav-bar";
+import NavBar from "@/components/nav-bar";
 import { ArrowLeft, Check, Plus } from "lucide-react";
 import Link from "next/link";
 import { useActionState } from "react";
@@ -17,7 +17,7 @@ const initialState={
     }
 }
 export default function CategoryFormPage(){
-    const[state,formAction,penden]=useActionState(createCategories,initialState)
+    const[state,formAction,penden]=useActionState(createCategory,initialState)
     return(
         <>
              <NavBar active="categorias"/>

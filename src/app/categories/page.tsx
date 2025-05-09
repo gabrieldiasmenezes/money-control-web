@@ -1,6 +1,6 @@
-import CategoryItem from "@/components/ui/category-item";
+import CategoryItem from "@/components/category-item";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
-import NavBar from "@/components/ui/nav-bar";
+import NavBar from "@/components/nav-bar";
 import { CircleAlert, Plus } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";

@@ -1,6 +1,7 @@
 import CrudDropdown from "./crud-dropdown";
 import Icon from "./icons";
 
+
 interface CategoryItemProps {
     category: Category
 }
